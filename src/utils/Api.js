@@ -4,8 +4,6 @@ import {Alert} from 'react-native';
 import {setOperatorDashBoard, setSupplierDashBoard} from '../redux/reducer';
 import Images from './Images';
 
-const apiBaseUrl = 'https://www.machinrun.islapps.tech/backend/public/api/';
-const assetsBaseUrl = 'https://www.machinrun.islapps.tech/backend/public/';
 
 const getSupplierBookings = (token, position) => {
   const URL =
