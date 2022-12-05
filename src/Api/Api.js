@@ -1,7 +1,6 @@
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const apiBaseUrl = 'https://www.machinrun.islapps.tech/backend/public/api/';
 
 // let url = 'https://behbud-server.herokuapp.com';
 // let url = 'http://localhost:3001';
